@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 26, 26);
+    font-family:"Montserrat", sans-serif;
+    
+    margin: auto;
+}
+.scroll{
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+    transition: all 400ms ease-in-out ;
+    margin-top: 50px;
+}
+
+.scroll:hover{
+    filter: drop-shadow(0px 3px 8px rgba(204, 204, 204, 0.925) );
+    transform: translateY(-6px);
+    
+
+}
+.scroll_c{
+    width: 100%;
+}
+
+
+
+
+
+.input_user{
+    display: block;
+}
+
+.input_pass{
+    display: block;
+}
+.input.cont{
+    margin: auto;
+    width: 100%;
+}
+.log_in{
+    margin: auto;
+    margin-top: 40px;
+    width:  300px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.input_c{
+    border: none;
+    background-color: transparent;
+    color: rgb(232, 232, 232);
+    width: 96%;
+    border-bottom: white solid 3px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: all 400ms ease-in-out ;
+}
+
+.input_c:hover{
+    filter: drop-shadow(1px 3px 5px rgba(232, 232, 232, 0.925) );
+    background-color: rgb(232, 232, 232) ;
+    color: black;
+    border-bottom: black solid 3px;
+    
+
+}
+
+.imagen{
+    margin: auto;
+    width: 100%;
+    opacity: 0;
+    animation-delay: 10s;
+    animation: fade 6s infinite;
+    
+}
+
+
+@keyframes fade {
+    0%, 100% { opacity: 0.2;filter:blur(2px) drop-shadow(0px 0px 0px rgba(232, 232, 232, 0.925) ); }
+    10%, 40% { opacity: 1;filter:blur(0) drop-shadow(1px 3px 20px rgba(232, 232, 232, 0.825) );}
+}
+
+
+.input_botton{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(232, 232, 232);
+    width: 100px;
+    border: white solid 3px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 400ms ease-in-out ;
+    letter-spacing: 2px;
+}
+
+.input_botton:hover{
+    filter: drop-shadow(1px 3px 10px rgba(232, 232, 232, 0.925) );
+    background-color: rgb(232, 232, 232) ;
+    color: black;
+    border : black solid 3px;
+}
+.botton_c{
+    background-color: transparent;
+}
+.titulo{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+}
