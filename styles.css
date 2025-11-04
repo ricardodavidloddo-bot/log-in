@@ -11,7 +11,7 @@ body{
     margin-right: 10px;
     
     transition: all 400ms ease-in-out ;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .scroll:hover{
@@ -41,7 +41,7 @@ body{
 }
 .log_in{
     margin: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     width:  300px;
     text-align: center;
     background-color: transparent;
@@ -117,4 +117,5 @@ body{
     color: white;
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
+
 }
